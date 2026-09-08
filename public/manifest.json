@@ -1,8 +1,14 @@
 {
   "name": "Neliomittag",
   "short_name": "Neliomittag",
+  "description": "Neliomittag gemeinsam planen",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "theme_color": "#111827",
-  "background_color": "#f4f5f7"
+  "background_color": "#f4f5f7",
+  "icons": [
+    {"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
 }
